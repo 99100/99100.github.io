@@ -1,0 +1,123 @@
+/* 
+
+CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles here instead of style.css so it 
+is easier to update the theme. Simply copy an existing 
+style from style.css to this file, and modify it to 
+your liking.
+
+*/
+
+
+
+.pp_inline h3{
+	font-size:20px;
+	margin:0px;
+	margin-bottom: 20px;
+	text-align:center;
+	font-weight:normal;
+	text-transform: uppercase;
+	color: #f67320;
+}
+.pp_inline .thankyou-ribbon {
+    bottom: -85px;
+    margin: 0 0 0 100px;
+    position: absolute;
+    z-index: 55;
+    clear: both;
+}
+.pp_inline form { margin-bottom: 35px;}
+.pp_inline form input[type="text"] { width: 350px; margin-right: 15px;}
+
+.closebtn {background: url("images/cross-thank-you.png") no-repeat scroll 0 0 transparent;cursor: pointer;display: block;float: right;height: 32px;margin: -30px -32px 0 0;overflow: hidden;text-indent: -5555px;width: 32px;}
+
+div.facebook .pp_content { padding: 20px;border: 1px solid #d3d3d0;}
+
+div.facebook .pp_top,
+div.facebook .pp_bottom,
+div.facebook .pp_top .pp_left,
+div.facebook .pp_top .pp_right,
+div.facebook .pp_bottom .pp_left,
+div.facebook .pp_top .pp_middle,
+div.facebook .pp_bottom .pp_middle,
+div.facebook .pp_bottom .pp_right {display: none;}
+div.facebook .pp_content_container .pp_left {padding-left: 0; background: none;}
+div.facebook .pp_content_container .pp_right { padding-right: 0; background: none;}
+
+div.facebook .pp_expand{background:url(images/prettyPhoto/facebook/sprite.png) -31px -26px no-repeat;cursor:pointer}
+div.facebook .pp_expand:hover{background:url(images/prettyPhoto/facebook/sprite.png) -31px -47px no-repeat;cursor:pointer}
+div.facebook .pp_contract{background:url(images/prettyPhoto/facebook/sprite.png) 0 -26px no-repeat;cursor:pointer}
+div.facebook .pp_contract:hover{background:url(images/prettyPhoto/facebook/sprite.png) 0 -47px no-repeat;cursor:pointer}
+div.facebook .pp_close{background:url(images/prettyPhoto/facebook/sprite.png) -1px -1px no-repeat;cursor:pointer;height:22px;width:22px}
+div.facebook .pp_description{margin:0 37px 0 0}
+div.facebook .pp_loaderIcon{background:url(images/prettyPhoto/facebook/loader.gif) center center no-repeat}
+div.facebook .pp_arrow_previous{background:url(images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;height:22px;margin-top:0;width:22px}
+div.facebook .pp_arrow_previous.disabled{background-position:0 -96px;cursor:default}
+div.facebook .pp_arrow_next{background:url(images/prettyPhoto/facebook/sprite.png) -32px -71px no-repeat;height:22px;margin-top:0;width:22px}
+div.facebook .pp_arrow_next.disabled{background-position:-32px -96px;cursor:default}
+div.facebook .pp_nav{margin-top:0}
+div.facebook .pp_nav p{font-size:15px;padding:0 3px 0 4px}
+div.facebook .pp_nav .pp_play{background:url(images/prettyPhoto/facebook/sprite.png) -1px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_nav .pp_pause{background:url(images/prettyPhoto/facebook/sprite.png) -32px -123px no-repeat;height:22px;width:22px}
+div.facebook .pp_next:hover{background:url(images/prettyPhoto/facebook/btnNext.png) center right no-repeat;cursor:pointer}
+div.facebook .pp_previous:hover{background:url(images/prettyPhoto/facebook/btnPrevious.png) center left no-repeat;cursor:pointer}
+
+div.pp_overlay { background: #000;}
+.marklist { text-align: left; clear: both; background: url(images/divider_line.png) top repeat-x; padding-top: 25px; margin-bottom: 20px;}
+.marklist img { float: left; margin-right: 20px;}
+.marklist h3 {margin: 10px 0 !important;}
+.marklist p { margin-bottom: 0;}
+.marklist .btn-submit { color: #fff;} 
+.pp_close { display: none !important;}
+
+.markAsGifted {
+	display:inline-block;
+	border:1px solid #c95b19;
+	color:#fff !important;
+	background: url(images/button_bg.png) 0 0 repeat-x #f67320;
+	margin:10px 0;
+	width: 80px;
+	padding:0 10px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:13px;
+	text-shadow:0 1px 1px #901d02;
+	font-weight:bold;
+	text-transform:uppercase;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+  	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);}
+.alreadyGifted {
+	display:inline-block;
+	border:1px solid #f0ae84;
+	color:#fff !important;
+	background: #f0ae84;
+	margin:10px 0;
+	width: 80px;
+	padding:0 10px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:13px;
+	text-shadow:0 1px 1px #f0ae84;
+	font-weight:bold;
+	text-transform:uppercase;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+  	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);}
+  	
+  	
+  	
+.row { clear: both; padding-top: 20px;}
+
+.mark_list h3 { margin-bottom: 0 !important;}
+.mark_list p { margin-bottom: 0;}
